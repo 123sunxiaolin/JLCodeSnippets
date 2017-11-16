@@ -3,23 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mark</string>
+	<string>notification</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - Life Cycle
-#pragma mark - Getters
-#pragma mark - Action
-#pragma mark - Private
-#pragma mark - Delegate</string>
+	<string> [[NSNotificationCenter defaultCenter] addObserver:self selector:&lt;#(nonnull SEL)#&gt; name:&lt;#(nullable NSNotificationName)#&gt; object:&lt;#(nullable id)#&gt;]</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>4175640D-A8E6-40ED-8D76-CCD16253D0E5</string>
+	<string>A6478F83-4540-4D74-8C53-024DDD0CEDB6</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>notification</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Mark ManageMent</string>
+	<string>My Code Snippet</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

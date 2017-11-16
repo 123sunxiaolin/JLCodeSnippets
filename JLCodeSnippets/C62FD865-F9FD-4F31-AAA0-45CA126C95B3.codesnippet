@@ -3,23 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mark</string>
+	<string>collectionDeleage</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - Life Cycle
-#pragma mark - Getters
-#pragma mark - Action
-#pragma mark - Private
-#pragma mark - Delegate</string>
+	<string>#pragma mark - UICollectionViewDelegate
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
+    
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>4175640D-A8E6-40ED-8D76-CCD16253D0E5</string>
+	<string>C62FD865-F9FD-4F31-AAA0-45CA126C95B3</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>CollectionVierwDelegate</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Mark ManageMent</string>
+	<string>UICollectionVierwDelegate</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
